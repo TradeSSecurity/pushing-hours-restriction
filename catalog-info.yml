@@ -1,0 +1,15 @@
+# This file contains metadata for backstage
+# Read more about available fields and annotations:
+# https://github.com/tradeshift/backstage
+#
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pushing-hours-restriction
+  description: "Behave like "pushing hours restriction" of the branch protection rule in the default branch"
+  annotations:
+    github.com/project-slug: TradeSSecurity/pushing-hours-restriction
+spec:
+  type: other
+  lifecycle: experimental
+  owner: cash-platform
